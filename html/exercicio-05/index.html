@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exerício 5: Formulário de Inscrição</title>
+  </head>
+  <body>
+    <h1>Formulário de Inscrição</h1>
+
+    <form action="#" method="post">
+
+      <label for="name">Nome:</label><br>
+      <input type="text" id="name" name="name" required />
+      <br /><br />
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required />
+      <br /><br />
+
+      <label for="telefone">WhatsApp:</label>
+      <input type="tel" id="telefone" name="telefone" />
+      <br /><br />
+
+      <label for="areaAtuacao">Área de atuação:</label><br />
+      <input type="radio" id="desenvolvimento" name="areaAtuacao" />
+      <label for="desenvolvimento">Desenvolvimento</label>
+
+      <input type="radio" id="quality" name="areaAtuacao" />
+      <label for="quality">Quality Assurance (QA)</label>
+
+      <input type="radio" id="dados" name="areaAtuacao" />
+      <label for="dados">Análise de Dados</label>
+
+      <input type="radio" id="infraestrutura" name="areaAtuacao" />
+      <label for="infraestrutura">Infraestrutura</label>
+      <br /><br />
+
+      <label for="observacao">Observações:</label><br />
+      <textarea name="observacao" id="observacao"></textarea>
+      <br />
+
+      <input type="checkbox" id="novidades" name="novidades" />
+      <label for="novidades"
+        >Desejo receber novidades e ofertas por email.</label
+      >
+      <br />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
